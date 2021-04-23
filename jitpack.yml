@@ -2,4 +2,4 @@ jdk:
   - openjdk8
 install:
   - echo "Running a custom install command"
-  - ./gradlew -x check -x javadoc build
+  - ./gradlew -x check -x javadoc install
